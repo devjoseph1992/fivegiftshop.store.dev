@@ -19,7 +19,7 @@ function Layout ( {children} ) {
 
     return(
         <>
-            <Header find={toggle}/>
+            <Header toggle={toggle}/>
             <Dropnav isOpen={isOpen} toggle={toggle}/>
             <Section find={find}/>
             <Filter isFilter={isFilter} find={find}/>
