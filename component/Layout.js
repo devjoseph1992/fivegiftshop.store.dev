@@ -5,7 +5,7 @@ import Dropnav from './Dropnav';
 import Section from './Section'
 import Filter from './Filter';
 
-function Layout ( {children} ) {
+const Layout = ( {children} ) => {
     const [isOpen, setIsOpen] = useState(false);
     const [isFilter, setIsFilter] = useState(false);
 

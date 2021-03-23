@@ -1,6 +1,6 @@
 import Filter from "./Filter";
 
-export default function Header({ find }) {
+const Header = ({ find }) => {
     return (
             <section className='bg-green-600'>
                 <div className='flex justify-between px-4 py-3'>
@@ -24,3 +24,5 @@ export default function Header({ find }) {
             </section>
     )
 }
+
+export default Header
