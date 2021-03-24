@@ -1,5 +1,3 @@
-import Filter from "./Filter";
-
 const Header = ({ find }) => {
     return (
             <section className='bg-green-600'>
@@ -20,7 +18,6 @@ const Header = ({ find }) => {
                     <span className='ml-1 text-white font-meduim'>Filter</span>
                 </button>
                 </div>
-                <Filter/>
             </section>
     )
 }
